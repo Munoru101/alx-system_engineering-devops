@@ -1,2 +1,1 @@
-#!/bin/bash
-#Populate this README as you handle the scripts
+Script 1 prints Hello, world
