@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) < 3:
         print("Usage: {} <subreddit> <list of keywords>".format(sys.argv[0]))
-        print("Ex:{} programming 'python java javascript'".format(sys.argv[0]))
+        print("Ex: {} programming 'python java javascript'".format(sys.argv[0]))
     else:
         subreddit = sys.argv[1]
         word_list = [word for word in sys.argv[2].split()]
